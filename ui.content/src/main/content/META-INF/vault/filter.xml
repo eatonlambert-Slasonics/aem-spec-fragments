@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <!-- Content Fragment models and the configuration that enables them -->
+    <filter root="/conf/portfolio"/>
+    <!-- DAM folders and sample fragments; merge so reinstalling never wipes authored content -->
+    <filter root="/content/dam/portfolio" mode="merge"/>
+</workspaceFilter>

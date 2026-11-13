@@ -14,23 +14,23 @@ GraphQL, so references are stored as Content Reference paths and resolved in cod
 The Cloud Service version replaces both with a Fragment Reference field and a GraphQL
 persisted query, which makes the pair a before-and-after migration example.
 
+## Modules
+
+- `core`: OSGi bundle with the Sling Model and servlet
+- `ui.content`: content package with the `/conf/portfolio` configuration, the three
+  Content Fragment Models (Component, Manufacturer, Category), the DAM folders and
+  sample fragments
+
 ## Build and install
 
 Requires Java 8 and Maven 3.9.
 
 ```
 mvn clean install
-mvn clean install -PautoInstallBundle "-Dsling.password=<admin password>"
+mvn clean install -PautoInstallBundle,autoInstallPackage "-Dsling.password=<admin password>"
 ```
-
-## Content setup (done by hand for now)
-
-- Configuration `/conf/portfolio` with Content Fragment Models enabled
-- Models: `component`, `manufacturer`, `category`
-- Fragments in `/content/dam/portfolio/{components,manufacturers,categories}`
 
 ## Next
 
 - Paging or a query for the full 1,000-part set
 - Dispatcher rules allowing the `specs` selector on publish
-- A content package that installs the models and folders

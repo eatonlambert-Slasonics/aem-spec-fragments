@@ -12,6 +12,7 @@
 
   <modules>
     <module>core</module>
+    <module>ui.content</module>
   </modules>
 
   <properties>
