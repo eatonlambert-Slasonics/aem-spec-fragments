@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d14b24ae-db64-4c52-8bd3-5f5ca022eedf">
+    <jcr:content
+        cq:name="texas-instruments"
+        cq:parentPath="/content/dam/portfolio/manufacturers"
+        jcr:description=""
+        jcr:lastModified="{Date}2026-11-13T01:38:59.665-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Texas Instruments"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-11-13T01:38:59.665-08:00">
+        <data
+            cq:model="/conf/portfolio/settings/dam/cfm/models/manufacturer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                name="Texas Instruments"
+                name_x0040_LastModified="{Date}2026-11-13T01:38:59.650-08:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

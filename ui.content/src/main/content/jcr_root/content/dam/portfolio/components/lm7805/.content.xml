@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bf82900f-59d6-4707-9005-b485c20d1271">
+    <jcr:content
+        cq:name="lm7805"
+        cq:parentPath="/content/dam/portfolio/components"
+        jcr:description=""
+        jcr:lastModified="{Date}2026-11-13T10:06:00.442-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="LM7805"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-11-13T10:06:00.442-08:00">
+        <data
+            cq:model="/conf/portfolio/settings/dam/cfm/models/component"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                categories="/content/dam/portfolio/categories/voltage-regulators"
+                categories_x0040_LastModified="{Date}2026-11-13T02:03:26.583-08:00"
+                category="/content/dam/portfolio/categories/voltage-regulators"
+                category_x0040_LastModified="{Date}2026-11-13T10:06:00.419-08:00"
+                manufacturer="/content/dam/portfolio/manufacturers/texas-instruments"
+                manufacturer_x0040_LastModified="{Date}2026-11-13T10:06:00.419-08:00"
+                name="5V Linear Regulator"
+                name_x0040_LastModified="{Date}2026-11-13T10:06:00.419-08:00"
+                packageType="TO-220"
+                packageType_x0040_LastModified="{Date}2026-11-13T10:06:00.419-08:00"
+                partNumber="LM7805"
+                partNumber_x0040_LastModified="{Date}2026-11-13T10:06:00.418-08:00"
+                pinCount="{Long}3"
+                pinCount_x0040_LastModified="{Date}2026-11-13T10:06:00.419-08:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

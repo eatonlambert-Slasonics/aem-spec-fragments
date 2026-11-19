@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="772a8052-c81d-400c-9da1-2b44d1676ec0">
+    <jcr:content
+        cq:name="lm358"
+        cq:parentPath="/content/dam/portfolio/components"
+        jcr:description=""
+        jcr:lastModified="{Date}2026-11-13T10:06:25.409-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="LM358"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-11-13T10:06:25.409-08:00">
+        <data
+            cq:model="/conf/portfolio/settings/dam/cfm/models/component"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                categories="/content/dam/portfolio/categories/op-amps"
+                categories_x0040_LastModified="{Date}2026-11-13T02:00:18.401-08:00"
+                category="/content/dam/portfolio/categories/op-amps"
+                category_x0040_LastModified="{Date}2026-11-13T10:06:25.392-08:00"
+                manufacturer="/content/dam/portfolio/manufacturers/texas-instruments"
+                manufacturer_x0040_LastModified="{Date}2026-11-13T10:06:25.392-08:00"
+                name="Dual Op Amp"
+                name_x0040_LastModified="{Date}2026-11-13T10:06:25.392-08:00"
+                packageType="DIP"
+                packageType_x0040_LastModified="{Date}2026-11-13T10:06:25.392-08:00"
+                partNumber="LM358"
+                partNumber_x0040_LastModified="{Date}2026-11-13T10:06:25.391-08:00"
+                pinCount="{Long}8"
+                pinCount_x0040_LastModified="{Date}2026-11-13T10:06:25.392-08:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
