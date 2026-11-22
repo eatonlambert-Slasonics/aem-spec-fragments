@@ -4,7 +4,7 @@ Electronic component specs modeled as AEM Content Fragments and served as one JS
 
 ## Why this exists
 
-I led an AEM workstream that moved about 1,000 electronic component technical specs from a legacy relational database into Content Fragments. This repo rebuilds the delivery side of that pattern on its own: structured part data in fragments, related data (manufacturer, category) kept in its own fragments, and one endpoint that returns every spec with those relationships resolved.
+I worked on an AEM workstream that moved about 1,000 electronic component technical specs from a legacy relational database into Content Fragments. This repo rebuilds the delivery side of that pattern on its own: structured part data in fragments, related data (manufacturer, category) kept in its own fragments, and one endpoint that returns every spec with those relationships resolved.
 
 On AEM 6.4 that last part takes code. 6.4 has no Fragment Reference field and no GraphQL, so references are stored as Content Reference paths and followed in Java. The planned Cloud Service version replaces that code with a Fragment Reference field and a GraphQL persisted query, so the two versions together read as a before-and-after migration example.
 
